@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.header{
+    display: flex;
+    /* border: 2px solid purple; */
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 2px 0px;
+}
+.left{
+    /* border: 2px solid red; */
+}
+.left img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 78px;
+}
+.left div{
+    font-size: 25px;
+    margin: 0px 9px;
+}
+.right{
+    /* border: 2px solid blue; */
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+    position: relative;
+}
+.navbar li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 24px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(129, 129, 129);
+}
+.container{
+    /* border: 2px solid green; */
+    height: 60%;
+    width: 40%;
+    margin: 79px 75px;
+}   
+/* h2{
+    text-align: center;
+} */
+.form-group{
+    margin: 20px 7px;
+    padding: 0px 10px;
+}
+input{
+    font-size: 15px;
+    margin: 0px -16px;
+    height: 28px;
+    width: 373px;
+}
+textarea{
+    font-size: 15px;
+    margin: 0px -16px;
+    width: 375px;
+}
+.container button{
+    margin: 2px 137px;
+    width: 107px;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.container button:hover{
+    color: white;
+    background-color: rgb(90, 90, 90);
+}
+.footer{
+    text-align: center;
+}
